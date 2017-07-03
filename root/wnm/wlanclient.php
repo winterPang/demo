@@ -1,0 +1,615 @@
+{
+"WLANClient":
+{
+  "FtCfg":[
+    {"Name":"StName0","Enable":"true","Method":"1","ReassocTime":"15"}
+  ],
+  "Typexq1":[
+     {"youku":"10%","souhu":"5%","tudou":"10%","pplive":"10%","BILI":"35%","aiqiyi":"15%","BLA":"15%"}
+  ],
+  "Typexq2":[
+     {"BT":"20%","dianlv":"10%","xunlei":"55%","BLA":"15%"}
+  ],
+  "Typexq3":[
+     {"TX":"50%","moshouworld":"45%","BLA":"5%"}
+  ],
+  "Typexq4":[
+     {"taobao":"50%","jindong":"25%","yamaxun":"10%","dangdang":"5%","shunfeng":"5%","BLA":"5%"}
+  ]
+  ,"DhcpTemplates1":[
+  {"Mac":"0001-0002-0001", "IP":"192.168.1.1", "method1":"GigaEthernet1/0/1", "MacType":"AP(ap-10)", "Time":"1:20:30"}
+  ]
+  ,"InternetTemplates2":[
+  {"InternetAdress":"202.1.0.50", "InternetId":"8888", "TCP":"TCP", "InAdress":"192.168.1.1", "InType":"Http"}
+  ]
+  ,"DynamicBlackListInfo":[
+    {"MacAddress":"11-11-22-22-33-33","APName":"1","Duration":"110"},
+    {"MacAddress":"11-11-22-22-33-44","APName":"2","Duration":"110"},
+    {"MacAddress":"11-11-22-22-33-28","APName":"3","Duration":"110"}
+  ]
+  ,"DynamicBlackListCfg":[
+    {"LifeTime":"1234"}
+  ]
+  ,"ResetDynamicBlackList":[
+    {"MacAddress":"11-11-22-22-33-33"},
+    {"MacAddress":"11-11-22-22-33-44"},
+    {"MacAddress":"11-11-22-22-33-28"}
+  ]
+  ,"BandNavigation":
+  [
+    {"GlobalEnable":"0","AgingTime":"180","DenialCnt":"0","Session":"","Gap":"4","Threshold":"15"}
+  ]
+  ,"APs":
+  [
+    {"Name":"ap1","IdleTime":"18","KeepAliveTime":"200","BandNaviStatus":"0"}
+    ,{"Name":"ap2","IdleTime":"18","KeepAliveTime":"200","BandNaviStatus":"1"}
+    ,{"Name":"ap3","IdleTime":"18","KeepAliveTime":"200","BandNaviStatus":"2"}
+    ,{"Name":"ap4","IdleTime":"18","KeepAliveTime":"200","BandNaviStatus":"1"}
+    ,{"Name":"ap5","IdleTime":"18","KeepAliveTime":"200","BandNaviStatus":"0"}
+      ]
+  ,"ApGroup":
+  [
+    {"Name":"group1","BandNaviStatus":"2"}
+    ,{"Name":"group2","BandNaviStatus":"1"}
+    ,{"Name":"group3","BandNaviStatus":"2"}
+    ,{"Name":"group4","BandNaviStatus":"0"}
+    ,{"Name":"group5","BandNaviStatus":"1"}
+  ]
+  ,"ServiceStatus":[
+    {"ServiceTemplateName":"StName0","SSID":"Supermarkets","ClientNumber":274,"ClientNumber2G":206,"RadioNumber2G":69,"RadioNumber5G":9,"ClientNumber5G":68},
+    {"ServiceTemplateName":"StName1","SSID":"Guest","ClientNumber":282,"ClientNumber2G":261,"RadioNumber2G":78,"RadioNumber5G":35,"ClientNumber5G":21},
+    {"ServiceTemplateName":"StName2","SSID":"VIP","ClientNumber":228,"ClientNumber2G":175,"RadioNumber2G":64,"RadioNumber5G":60,"ClientNumber5G":53},
+    {"ServiceTemplateName":"StName3","SSID":"Private","ClientNumber":187,"ClientNumber2G":181,"RadioNumber2G":54,"RadioNumber5G":26,"ClientNumber5G":6},
+    {"ServiceTemplateName":"StName4","SSID":"Public","ClientNumber":475,"ClientNumber2G":240,"RadioNumber2G":64,"RadioNumber5G":63,"ClientNumber5G":235},
+    {"ServiceTemplateName":"StName5","SSID":"Free","ClientNumber":283,"ClientNumber2G":92,"RadioNumber2G":26,"RadioNumber5G":29,"ClientNumber5G":191},
+    {"ServiceTemplateName":"StName6","SSID":"Home","ClientNumber":831,"ClientNumber2G":403,"RadioNumber2G":61,"RadioNumber5G":13,"ClientNumber5G":428},
+    {"ServiceTemplateName":"StName7","SSID":"Airport","ClientNumber":614,"ClientNumber2G":393,"RadioNumber2G":6,"RadioNumber5G":91,"ClientNumber5G":221},
+    {"ServiceTemplateName":"StName8","SSID":"Railway station","ClientNumber":764,"ClientNumber2G":363,"RadioNumber2G":46,"RadioNumber5G":27,"ClientNumber5G":401},
+    {"ServiceTemplateName":"StName9","SSID":"Office","ClientNumber":470,"ClientNumber2G":30,"RadioNumber2G":22,"RadioNumber5G":55,"ClientNumber5G":440}
+  ]
+  ,"StationStatistics":[
+    {"MacAddress":"11-11-11-11-11-12","TxBkFrames":"123456","TxBkBytes":"123456","TxBeFrames":"123456","TxBeBytes":"123456","TxViFrames":"123456","TxViBytes":"123456","TxVoFrames":"123456","TxVoBytes":"123456","RxBkFrames":"123456","RxBkBytes":"123456","RxBeFrames":"123456","RxBeBytes":"123456","RxViFrames":"123456","RxViBytes":"123456","RxVoFrames":"123456","RxVoBytes":"123456","DropBkFrames":"123456","DropBkBytes":"123456","DropBeFrames":"123456","DropBeBytes":"123456","DropViFrames":"123456","DropViBytes":"123456","DropVoFrames":"123456","DropVoBytes":"123456"},
+    {"MacAddress":"11-11-11-11-11-12","TxBkFrames":"123456","TxBkBytes":"123456","TxBeFrames":"123456","TxBeBytes":"123456","TxViFrames":"123456","TxViBytes":"123456","TxVoFrames":"123456","TxVoBytes":"123456","RxBkFrames":"123456","RxBkBytes":"123456","RxBeFrames":"123456","RxBeBytes":"123456","RxViFrames":"123456","RxViBytes":"123456","RxVoFrames":"123456","RxVoBytes":"123456","DropBkFrames":"123456","DropBkBytes":"123456","DropBeFrames":"123456","DropBeBytes":"123456","DropViFrames":"123456","DropViBytes":"123456","DropVoFrames":"123456","DropVoBytes":"123456"},
+    {"MacAddress":"11-11-11-11-11-12","TxBkFrames":"123456","TxBkBytes":"123456","TxBeFrames":"123456","TxBeBytes":"123456","TxViFrames":"123456","TxViBytes":"123456","TxVoFrames":"123456","TxVoBytes":"123456","RxBkFrames":"123456","RxBkBytes":"123456","RxBeFrames":"123456","RxBeBytes":"123456","RxViFrames":"123456","RxViBytes":"123456","RxVoFrames":"123456","RxVoBytes":"123456","DropBkFrames":"123456","DropBkBytes":"123456","DropBeFrames":"123456","DropBeBytes":"123456","DropViFrames":"123456","DropViBytes":"123456","DropVoFrames":"123456","DropVoBytes":"123456"},
+    {"MacAddress":"11-11-11-11-11-12","TxBkFrames":"123456","TxBkBytes":"123456","TxBeFrames":"123456","TxBeBytes":"123456","TxViFrames":"123456","TxViBytes":"123456","TxVoFrames":"123456","TxVoBytes":"123456","RxBkFrames":"123456","RxBkBytes":"123456","RxBeFrames":"123456","RxBeBytes":"123456","RxViFrames":"123456","RxViBytes":"123456","RxVoFrames":"123456","RxVoBytes":"123456","DropBkFrames":"123456","DropBkBytes":"123456","DropBeFrames":"123456","DropBeBytes":"123456","DropViFrames":"123456","DropViBytes":"123456","DropVoFrames":"123456","DropVoBytes":"123456"},
+    {"MacAddress":"11-11-11-11-11-12","TxBkFrames":"123456","TxBkBytes":"123456","TxBeFrames":"123456","TxBeBytes":"123456","TxViFrames":"123456","TxViBytes":"123456","TxVoFrames":"123456","TxVoBytes":"123456","RxBkFrames":"123456","RxBkBytes":"123456","RxBeFrames":"123456","RxBeBytes":"123456","RxViFrames":"123456","RxViBytes":"123456","RxVoFrames":"123456","RxVoBytes":"123456","DropBkFrames":"123456","DropBkBytes":"123456","DropBeFrames":"123456","DropBeBytes":"123456","DropViFrames":"123456","DropViBytes":"123456","DropVoFrames":"123456","DropVoBytes":"123456"},
+    {"MacAddress":"11-11-11-11-11-12","TxBkFrames":"123456","TxBkBytes":"123456","TxBeFrames":"123456","TxBeBytes":"123456","TxViFrames":"123456","TxViBytes":"123456","TxVoFrames":"123456","TxVoBytes":"123456","RxBkFrames":"123456","RxBkBytes":"123456","RxBeFrames":"123456","RxBeBytes":"123456","RxViFrames":"123456","RxViBytes":"123456","RxVoFrames":"123456","RxVoBytes":"123456","DropBkFrames":"123456","DropBkBytes":"123456","DropBeFrames":"123456","DropBeBytes":"123456","DropViFrames":"123456","DropViBytes":"123456","DropVoFrames":"123456","DropVoBytes":"123456"},
+    {"MacAddress":"11-11-11-11-11-12","TxBkFrames":"123456","TxBkBytes":"123456","TxBeFrames":"123456","TxBeBytes":"123456","TxViFrames":"123456","TxViBytes":"123456","TxVoFrames":"123456","TxVoBytes":"123456","RxBkFrames":"123456","RxBkBytes":"123456","RxBeFrames":"123456","RxBeBytes":"123456","RxViFrames":"123456","RxViBytes":"123456","RxVoFrames":"123456","RxVoBytes":"123456","DropBkFrames":"123456","DropBkBytes":"123456","DropBeFrames":"123456","DropBeBytes":"123456","DropViFrames":"123456","DropViBytes":"123456","DropVoFrames":"123456","DropVoBytes":"123456"},
+    {"MacAddress":"11-11-11-11-11-12","TxBkFrames":"123456","TxBkBytes":"123456","TxBeFrames":"123456","TxBeBytes":"123456","TxViFrames":"123456","TxViBytes":"123456","TxVoFrames":"123456","TxVoBytes":"123456","RxBkFrames":"123456","RxBkBytes":"123456","RxBeFrames":"123456","RxBeBytes":"123456","RxViFrames":"123456","RxViBytes":"123456","RxVoFrames":"123456","RxVoBytes":"123456","DropBkFrames":"123456","DropBkBytes":"123456","DropBeFrames":"123456","DropBeBytes":"123456","DropViFrames":"123456","DropViBytes":"123456","DropVoFrames":"123456","DropVoBytes":"123456"},
+    {"MacAddress":"11-11-11-11-11-12","TxBkFrames":"123456","TxBkBytes":"123456","TxBeFrames":"123456","TxBeBytes":"123456","TxViFrames":"123456","TxViBytes":"123456","TxVoFrames":"123456","TxVoBytes":"123456","RxBkFrames":"123456","RxBkBytes":"123456","RxBeFrames":"123456","RxBeBytes":"123456","RxViFrames":"123456","RxViBytes":"123456","RxVoFrames":"123456","RxVoBytes":"123456","DropBkFrames":"123456","DropBkBytes":"123456","DropBeFrames":"123456","DropBeBytes":"123456","DropViFrames":"123456","DropViBytes":"123456","DropVoFrames":"123456","DropVoBytes":"123456"},
+    {"MacAddress":"11-11-11-11-11-12","TxBkFrames":"123456","TxBkBytes":"123456","TxBeFrames":"123456","TxBeBytes":"123456","TxViFrames":"123456","TxViBytes":"123456","TxVoFrames":"123456","TxVoBytes":"123456","RxBkFrames":"123456","RxBkBytes":"123456","RxBeFrames":"123456","RxBeBytes":"123456","RxViFrames":"123456","RxViBytes":"123456","RxVoFrames":"123456","RxVoBytes":"123456","DropBkFrames":"123456","DropBkBytes":"123456","DropBeFrames":"123456","DropBeBytes":"123456","DropViFrames":"123456","DropViBytes":"123456","DropVoFrames":"123456","DropVoBytes":"123456"},
+    {"MacAddress":"11-11-11-11-11-12","TxBkFrames":"123456","TxBkBytes":"123456","TxBeFrames":"123456","TxBeBytes":"123456","TxViFrames":"123456","TxViBytes":"123456","TxVoFrames":"123456","TxVoBytes":"123456","RxBkFrames":"123456","RxBkBytes":"123456","RxBeFrames":"123456","RxBeBytes":"123456","RxViFrames":"123456","RxViBytes":"123456","RxVoFrames":"123456","RxVoBytes":"123456","DropBkFrames":"123456","DropBkBytes":"123456","DropBeFrames":"123456","DropBeBytes":"123456","DropViFrames":"123456","DropViBytes":"123456","DropVoFrames":"123456","DropVoBytes":"123456"}
+  ]
+  ,"Stations":
+  [
+    {"MacAddress":"11-11-11-11-11-12","UserName":"username1","WirelessMode":"1", "Aid":"aid1", "ApName":"AP1", "RadioId":"1", "Ssid":"ssid1", "Bssid":"bssid1", "VLAN":"1","PowerSaveMode":"0","ListenInterval":"listen1","RxRate":"1589","TxRate":"4816","UpTime":"897","QoSMode":"0","DeviceType":"Nokia","Ipv4Address":"1.1.1.1","Ipv6Address":"1:1::1:1"}
+    ,{"MacAddress":"11-11-11-11-11-13","UserName":"username2","WirelessMode":"64", "Aid":"aid2", "ApName":"AP2", "RadioId":"2", "Ssid":"ssid2", "Bssid":"bssid2", "VLAN":"2","PowerSaveMode":"1","ListenInterval":"listen2","UpTime":"58621476","QoSMode":"1","Ipv4Address":"1.1.1.1","Ipv6Address":"1:1::1:1","RxRate":"156489","TxRate":"564816"}
+    ,{"MacAddress":"11-11-11-11-11-14","UserName":"username2","WirelessMode":"2", "Aid":"aid2", "ApName":"AP2", "RadioId":"2", "Ssid":"ssid2", "Bssid":"bssid2", "VLAN":"2","PowerSaveMode":"0","ListenInterval":"listen2","UpTime":"58621476","QoSMode":"3","Ipv4Address":"1.1.1.1","Ipv6Address":"1:1::1:1","RxRate":"15649","TxRate":"5816"},
+    {"MacAddress":"aa-11-11-11-11-12","UserName":"username1","WirelessMode":"1", "Aid":"aid1", "ApName":"AP1", "RadioId":"1", "Ssid":"ssid1", "Bssid":"bssid1", "VLAN":"1","PowerSaveMode":"0","ListenInterval":"listen1","RxRate":"156489","TxRate":"564816","UpTime":"12376","QoSMode":"0","DeviceType":"Nokia","Ipv4Address":"1.1.1.1","Ipv6Address":"1:1::1:1"}
+    ,{"MacAddress":"bb-11-11-11-11-13","UserName":"username2","WirelessMode":"64", "Aid":"aid2", "ApName":"AP2", "RadioId":"2", "Ssid":"ssid2", "Bssid":"bssid2", "VLAN":"2","PowerSaveMode":"1","ListenInterval":"listen2","UpTime":"58621476","QoSMode":"1","Ipv4Address":"1.1.1.1","Ipv6Address":"1:1::1:1","RxRate":"1489","TxRate":"5816"}
+    ,{"MacAddress":"cc-11-11-11-11-14","UserName":"username2","WirelessMode":"2", "Aid":"aid2", "ApName":"AP2", "RadioId":"2", "Ssid":"ssid2", "Bssid":"bssid2", "VLAN":"2","PowerSaveMode":"0","ListenInterval":"listen2","UpTime":"58621476","QoSMode":"3","Ipv4Address":"1.1.1.1","Ipv6Address":"1:1::1:1","RxRate":"6489","TxRate":"816"}
+  ]
+  ,"StationSecurityInformation":
+  [
+      {"MacAddress":"11-11-11-11-11-12","ClientType":"2","AkmMethod":"0","EncryptionCipher":"5"},
+      {"MacAddress":"1-1-1","AccessCategory":"2","TID":"2"},
+      {"MacAddress":"3-3-3","AccessCategory":"3","TID":"3"}
+  ]
+  ,"StaticBlackList":
+  [
+    {"MacAddress":"55-55-66-88-55-22"}
+    ,{"MacAddress":"44-22-33-22-33-11"}
+    ,{"MacAddress":"88-22-11-22-33-44"}
+  ]
+   ,"WhiteList":
+  [
+    {"MacAddress":"22-65-15-97-98-99"}
+    ,{"MacAddress":"22-99-87-87-85-83"}
+    ,{"MacAddress":"23-45-78-45-47-52"}
+  ]  
+  ,"NetWanInfo":
+  [
+    {
+      "UploadItf":"GigaEthernet 1/0/1",
+      "Destribtion":"1",
+      "Status":"Up",
+      "Flow":""
+    },
+    {
+      "UploadItf":"GigaEthernet 1/0/2",
+      "Destribtion":"2",
+      "Status":"Up",
+      "Flow":""
+    }
+  ]
+  ,"DhcpService":
+  [
+    {
+      "MacAddress":"0001-0001-0001-0001",
+      "IpAddress":"192.168.100.1",
+      "deviceType":"2",
+      "leftRentTime":"24h"
+    },
+    {
+      "MacAddress":"0001-0001-0001-0001",
+      "IpAddress":"192.168.100.1",
+      "deviceType":"1",
+      "leftRentTime":"2h"
+    },
+    {
+      "MacAddress":"0001-0001-0001-0001",
+      "IpAddress":"192.168.100.1",
+      "deviceType":"3",
+      "leftRentTime":"26h"
+    }
+  ]
+  ,"DeviceInfo":
+  [
+    {
+      "ServiceName":"h3c",
+      "Ssid":"h3c",
+      "Status":"Up"
+    },
+    {
+      "ServiceName":"h3c2",
+      "Ssid":"h3c2",
+      "Status":"Up"
+    }
+  ]
+  ,"WirelessTermintorFlow":
+  [
+    {
+      "MacAddress":"0001-0001-0001-0001",
+      "frequencyRange":"802.11ac",
+      "byteNum":"12",
+      "packageNum":"190",
+      "rate":"20000",
+      "flowType":"Bt"
+    },
+    {
+      "MacAddress":"0001-0001-0001-0002",
+      "frequencyRange":"802.11an",
+      "byteNum":"9",
+      "packageNum":"82",
+      "rate":"1000",
+      "flowType":"Bt"
+    },
+    {
+      "MacAddress":"0001-0001-0001-0003",
+      "frequencyRange":"802.11an",
+      "byteNum":"7",
+      "packageNum":"20",
+      "rate":"500",
+      "flowType":"Bt"
+    }
+  ]
+  ,"ApInfo":
+  [
+    {
+      "ApName":"ap-1",
+      "MacAddress":"0001-0001-0001-0001",
+      "IpAddress":"192.168.100.1",
+      "f5ghz":"Up",
+      "f24ghz":"Down",
+      "onlineTime":"1:20:20",
+      "history":""
+    },
+    {
+      "ApName":"ap-2",
+      "MacAddress":"0001-0001-0001-0001",
+      "IpAddress":"192.168.100.1",
+      "f5ghz":"Up",
+      "f24ghz":"Down",
+      "onlineTime":"1:20:20",
+      "history":""
+    },
+    {
+      "ApName":"ap-3",
+      "MacAddress":"0001-0001-0001-0001",
+      "IpAddress":"192.168.100.1",
+      "f5ghz":"Up",
+      "f24ghz":"Down",
+      "onlineTime":"1:20:20",
+      "history":""
+    }
+  ]
+  ,"ApInformation":
+  [
+    {
+      "ApName":"ap-1",
+      "S5G":"Up",
+      "C5G":"117",
+      "S2G":"Up",
+      "C2G":"1"
+    },
+    {
+      "ApName":"ap-1",
+      "S5G":"Up",
+      "C5G":"102",
+      "S2G":"Up",
+      "C2G":"3"
+    },
+    {
+      "ApName":"ap-3",
+      "S5G":"Up",
+      "C5G":"315",
+      "S2G":"Up",
+      "C2G":"13"
+    }
+  ]
+  ,"UnanthorizedAp":
+  [
+    {
+      "MacAddress":"0001-0001-0001-0001",
+      "IpAddress":"192.168.100.1",
+      "foundAp":"ap1",
+      "unbelieveAction":"1",
+      "foundCount":"3",
+      "latelyFoundTime":"60min"
+    },
+    {
+      "MacAddress":"0001-0001-0001-0001",
+      "IpAddress":"192.168.100.1",
+      "foundAp":"ap2",
+      "unbelieveAction":"2",
+      "foundCount":"2",
+      "latelyFoundTime":"10min"
+    },
+    {
+      "MacAddress":"0001-0001-0001-0003",
+      "IpAddress":"192.168.100.2",
+      "foundAp":"ap1",
+      "unbelieveAction":"0",
+      "foundCount":"1",
+      "latelyFoundTime":"30min"
+    }
+  ]
+  ,"UnanthorizedAgent":
+  [
+    {
+      "MacAddress":"0001-0001-0001-0001",
+      "IpAddress":"192.168.100.1",
+      "latelyFoundTime":"60min"
+    },
+    {
+      "MacAddress":"0001-0001-0001-0001",
+      "IpAddress":"192.168.100.1",
+      "latelyFoundTime":"10min"
+    },
+    {
+      "MacAddress":"0001-0001-0001-0003",
+      "IpAddress":"192.168.100.2",
+      "latelyFoundTime":"30min"
+    }
+  ]
+  ,"UserGroup":
+  [
+    {
+      "UserGroup":"weichat",
+      "UserNum":"100"
+    },
+    {
+      "UserGroup":"default",
+      "UserNum":"100"
+    },
+    {
+      "UserGroup":"guest",
+      "UserNum":"1"
+    }
+  ]
+  ,"UserList":
+  [
+    {
+      "UserName":"admin",
+      "UserGroup":"office",
+      "TermintorNum":"3"
+    },
+    {
+      "UserName":"devolper",
+      "UserGroup":"office",
+      "TermintorNum":"49"
+    },
+    {
+      "UserName":"guest",
+      "UserGroup":"guest",
+      "TermintorNum":"2"
+    }
+  ]
+  ,"ServiceTemplates":
+  [
+    {"Name":"StName2","SSID":"ssid1","DefaultVlan":"2213","Enable":"false","HideSsid":"false","MaxClientCnt":"0","LocalForwardVlanList":"65-100","ForwardingLocation":"4","PolicyForwarding":"true","PolicyName":"hahaha","AssociationLocation":"4","AuthenticationLocation":"4","QuikAssociation":"true"},
+    {"Name":"StName2","SSID":"ssid2","DefaultVlan":"2725","Enable":"false","HideSsid":"false","MaxClientCnt":"84","LocalForwardVlanList":"1-100"},
+    {"Name":"StName3","SSID":"ssid3","DefaultVlan":"1224","Enable":"true","HideSsid":"false","MaxClientCnt":"89","LocalForwardVlanList":"2-100"},
+    {"Name":"StName4","SSID":"ssid4","DefaultVlan":"3928","Enable":"false","HideSsid":"false","MaxClientCnt":"55","LocalForwardVlanList":"3-100"}
+  ]
+  ,"ServiceSecurity":
+  [
+    {"WpaIeSelected":"a","RsnIeSelected":"b","TkipSelected":"c","CcmpSelected":"d","Wep40Selected":"e","Wep104Selected":"f","Wep128Selected":"g","AkmMode":"h","PskInputMode":"i","PskPassPhraseKey":"j","PskRawKey":"k","PtkLifeTime":"l","GtkUpdateEnable":"m","GtkUpdateMode":"n","GtkUpdateTime":"o","GtkPacketNumber":"p","ClientOffUpdateGtk":"q","TkipCmTime":"r"},
+    {"WpaIeSelected":"aa","RsnIeSelected":"bb","TkipSelected":"cc","CcmpSelected":"dd","Wep40Selected":"ee","Wep104Selected":"ff","Wep128Selected":"gg","AkmMode":"hh","PskInputMode":"ii","PskPassPhraseKey":"jj"},
+    {"WpaIeSelected":"aaa","RsnIeSelected":"bbb","TkipSelected":"ccc","CcmpSelected":"ddd","Wep40Selected":"eee","Wep104Selected":"fff","Wep128Selected":"ggg","AkmMode":"hhh","PskInputMode":"iii","PskPassPhraseKey":"jjj"},
+    {"WpaIeSelected":"aaaa","RsnIeSelected":"bbbb","TkipSelected":"cccc","CcmpSelected":"dddd","Wep40Selected":"eeee","Wep104Selected":"ffff","Wep128Selected":"gggg","AkmMode":"hhhh","PskInputMode":"iiii","PskPassPhraseKey":"jjjj"}
+  ]
+  ,"Layer2Authentication":
+  [
+    {"AuthenticationMode":"a","IntrusionProtectionEnable":"b","IntrusionProtectionOperation":"c","TemporaryServiceStopTimer":"d","TemporaryBlockTimer":"e","IgnoreAuthorization":"f","AuthorizationFailOffline":"g","AccountingFailOffline":"h","Dot1xHandshakeEnable":"i","Dot1xSecurityHandshakeEnable":"j","Dot1xReauthenticationEnable":"k","Dot1xMandatoryDomain":"l","Dot1xMaxUserCount":"m","MACAuthenticationDomain":"n","MACAuthenticationMaxUserCount":"o"},
+    {"AuthenticationMode":"aa","IntrusionProtectionEnable":"bb","IntrusionProtectionOperation":"cc","TemporaryServiceStopTimer":"dd","TemporaryBlockTimer":"ee","IgnoreAuthorization":"ff","AuthorizationFailOffline":"gg","AccountingFailOffline":"hh","Dot1xHandshakeEnable":"ii","Dot1xSecurityHandshakeEnable":"jj","Dot1xReauthenticationEnable":"kk","Dot1xMandatoryDomain":"ll","Dot1xMaxUserCount":"mm","MACAuthenticationDomain":"nn","MACAuthenticationMaxUserCount":"oo"},
+    {"AuthenticationMode":"aaa","IntrusionProtectionEnable":"bbb","IntrusionProtectionOperation":"ccc","TemporaryServiceStopTimer":"ddd","TemporaryBlockTimer":"eee","IgnoreAuthorization":"fff","AuthorizationFailOffline":"ggg","AccountingFailOffline":"hhh","Dot1xHandshakeEnable":"iii","Dot1xSecurityHandshakeEnable":"jjj","Dot1xReauthenticationEnable":"kkk","Dot1xMandatoryDomain":"lll","Dot1xMaxUserCount":"mmm","MACAuthenticationDomain":"nnn","MACAuthenticationMaxUserCount":"ooo"},
+    {"AuthenticationMode":"aaaa","IntrusionProtectionEnable":"bbbb","IntrusionProtectionOperation":"cccc","TemporaryServiceStopTimer":"dddd","TemporaryBlockTimer":"eeee","IgnoreAuthorization":"ffff","AuthorizationFailOffline":"gggg","AccountingFailOffline":"hhhh","Dot1xHandshakeEnable":"iiii","Dot1xSecurityHandshakeEnable":"jjjj","Dot1xReauthenticationEnable":"kkkk","Dot1xMandatoryDomain":"llll","Dot1xMaxUserCount":"mmmm","MACAuthenticationDomain":"nnnn","MACAuthenticationMaxUserCount":"oooo"}
+  ]
+  ,"ServiceBindings":
+  [
+    {"ApName":"AP1","RadioId":"1","ServiceTemplateName":"StName1","Vlan":"1","VlanGroup":"VlanGroup1"},
+    {"ApName":"AP1","RadioId":"4","ServiceTemplateName":"StName4","Vlan":"4","VlanGroup":"VlanGroup4"},
+    {"ApName":"AP1","RadioId":"5","ServiceTemplateName":"StName5","Vlan":"1","VlanGroup":"VlanGroup5"},
+    {"ApName":"AP2","RadioId":"1","ServiceTemplateName":"StName6","Vlan":"4","VlanGroup":"VlanGroup6"},
+    {"ApName":"AP2","RadioId":"2","ServiceTemplateName":"StName6","Vlan":"4","VlanGroup":"VlanGroup6"},
+    {"ApName":"AP2","RadioId":"3","ServiceTemplateName":"StName8","Vlan":"1","VlanGroup":"VlanGroup8"},
+    {"ApName":"AP2","RadioId":"4","ServiceTemplateName":"StName6","Vlan":"4","VlanGroup":"VlanGroup6"},
+    {"ApName":"AP3","RadioId":"1","ServiceTemplateName":"StName10","Vlan":"1","VlanGroup":"VlanGroup10"},
+    {"ApName":"AP3","RadioId":"2","ServiceTemplateName":"StName10","Vlan":"1","VlanGroup":"VlanGroup10"},
+    {"ApName":"AP3","RadioId":"3","ServiceTemplateName":"StName12","Vlan":"7","VlanGroup":"VlanGroup12"},
+    {"ApName":"AP3","RadioId":"4","ServiceTemplateName":"StName14","Vlan":"18","VlanGroup":"VlanGroup13"}
+  ]
+  ,"ServiceConnections":
+  [
+    {"ApName":"AP1","RadioId":"1","Name":"StName1","ClientCnt":"10","TxFrameCnt":76988,"RxFrameCnt":13276,"TxFrameBytes":99584,"RxFrameBytes":92986,"TxDataFrameCnt":56585,"RxDataFrameCnt":65633,"TxDataFrameBytes":71875,"RxDataFrameBytes":24306,"TxAssoFrameCnt":51998,"RxAssoFrameCnt":19367},
+    {"ApName":"AP1","RadioId":"2","Name":"StName2","ClientCnt":"10","TxFrameCnt":91491,"RxFrameCnt":73152,"TxFrameBytes":58626,"RxFrameBytes":43182,"TxDataFrameCnt":66803,"RxDataFrameCnt":69582,"TxDataFrameBytes":74698,"RxDataFrameBytes":21847,"TxAssoFrameCnt":4081,"RxAssoFrameCnt":72021},
+    {"ApName":"AP1","RadioId":"3","Name":"StName4","ClientCnt":"10","TxFrameCnt":20973,"RxFrameCnt":66709,"TxFrameBytes":85265,"RxFrameBytes":38863,"TxDataFrameCnt":16314,"RxDataFrameCnt":37173,"TxDataFrameBytes":14495,"RxDataFrameBytes":42884,"TxAssoFrameCnt":89901,"RxAssoFrameCnt":12538},
+    {"ApName":"AP1","RadioId":"4","Name":"StName5","ClientCnt":"10","TxFrameCnt":87522,"RxFrameCnt":41123,"TxFrameBytes":61609,"RxFrameBytes":19541,"TxDataFrameCnt":30456,"RxDataFrameCnt":36846,"TxDataFrameBytes":30904,"RxDataFrameBytes":2505,"TxAssoFrameCnt":55033,"RxAssoFrameCnt":33934},
+    {"ApName":"AP2","RadioId":"1","Name":"StName6","ClientCnt":"12","TxFrameCnt":45539,"RxFrameCnt":65426,"TxFrameBytes":54771,"RxFrameBytes":19250,"TxDataFrameCnt":1373,"RxDataFrameCnt":38222,"TxDataFrameBytes":38362,"RxDataFrameBytes":79568,"TxAssoFrameCnt":2762,"RxAssoFrameCnt":17880},
+    {"ApName":"AP2","RadioId":"2","Name":"StName7","ClientCnt":"10","TxFrameCnt":81650,"RxFrameCnt":50457,"TxFrameBytes":48430,"RxFrameBytes":4448,"TxDataFrameCnt":9628,"RxDataFrameCnt":99399,"TxDataFrameBytes":63078,"RxDataFrameBytes":29241,"TxAssoFrameCnt":22082,"RxAssoFrameCnt":28360},
+    {"ApName":"AP3","RadioId":"1","Name":"StName10","ClientCnt":"10","TxFrameCnt":36610,"RxFrameCnt":93541,"TxFrameBytes":53482,"RxFrameBytes":7197,"TxDataFrameCnt":86917,"RxDataFrameCnt":90038,"TxDataFrameBytes":697,"RxDataFrameBytes":70060,"TxAssoFrameCnt":67642,"RxAssoFrameCnt":80843},
+    {"ApName":"AP3","RadioId":"2","Name":"StName11","ClientCnt":"8","TxFrameCnt":10512,"RxFrameCnt":49631,"TxFrameBytes":45086,"RxFrameBytes":98802,"TxDataFrameCnt":88287,"RxDataFrameCnt":48164,"TxDataFrameBytes":27839,"RxDataFrameBytes":34821,"TxAssoFrameCnt":22295,"RxAssoFrameCnt":81519},
+    {"ApName":"AP3","RadioId":"3","Name":"StName14","ClientCnt":"18","TxFrameCnt":85673,"RxFrameCnt":16045,"TxFrameBytes":8009,"RxFrameBytes":12785,"TxDataFrameCnt":21871,"RxDataFrameCnt":54744,"TxDataFrameBytes":39572,"RxDataFrameBytes":73297,"TxAssoFrameCnt":57944,"RxAssoFrameCnt":45538}
+  ]
+  ,"Layer2Authentication":
+  [
+    {"ServiceTemplateName":"StName1","AuthenticationMode":"0","IntrusionProtectionEnable":"false","IntrusionProtectionOperation":"1","TemporaryServiceStopTimer":"100","TemporaryBlockTimer":"100","IgnoreAuthorization":"false","AuthorizationFailOffline":"true","AccountingFailOffline":"true","Dot1xHandshakeEnable":"false","Dot1xSecurityHandshakeEnable":"false","Dot1xReauthenticationEnable":"false","Dot1xMandatoryDomain":"hehe","Dot1xMaxUserCount":"2015","MACAuthenticationDomain":"NoZuoNoDie","MACAuthenticationMaxUserCount":"2008"}
+  ]
+  ,"ServiceSecurity":
+  [
+    {"Name":"StName1","TkipCmTime":"123","PtkLifeTime":"123456","GtkUpdateEnable":"false", "GtkUpdateMode":"2", "GtkUpdateTime":"12580", "GtkPacketNumber":"12306", "ClientOffUpdateGtk":"true","WpaIeSelected":"true", "RsnIeSelected":"true", "TkipSelected":"false", "CcmpSelected":"true", "Wep40Selected":"true", "Wep104Selected":"false", "Wep128Selected":"false","AkmMode":"0"}
+  ]
+  ,"ServiceWepKey":
+  [
+    {"ServiceName":"StName1","WepKeyId":"1","CipherSuite":"5", "KeyInputType":"2", "Wep40PassPhraseKey":"Wep40PassPhraseKey", "Wep40RawKey":"Wep40RawKey", "Wep104PassPhraseKey":"Wep104PassPhraseKey", "Wep104RawKey":"Wep104RawKey", "Wep128PassPhraseKey":"Wep128PassPhraseKey", "Wep128RawKey":"Wep128RawKey", "IsSelected":"false"},
+    {"ServiceName":"StName1","WepKeyId":"2","CipherSuite":"5", "KeyInputType":"2", "Wep40PassPhraseKey":"Wep40PassPhraseKey", "Wep40RawKey":"Wep40RawKey", "Wep104PassPhraseKey":"Wep104PassPhraseKey", "Wep104RawKey":"Wep104RawKey", "Wep128PassPhraseKey":"Wep128PassPhraseKey", "Wep128RawKey":"Wep128RawKey", "IsSelected":"true"}
+  ]
+  ,"RfpingInformation":
+  [
+    {"StaMode":"11n"}
+  ],
+
+
+  "StationRoamInformation":
+  [
+    {"MacAddress":"1-1-1-1-1-1","RoamStatus":"3"},
+    {"MacAddress":"2-1-1-1-1-1","RoamStatus":"2"}
+  ],
+  
+  "StationRoamTrack":
+  [
+    {"MacAddress":"1-1-1-1-11-1","TrackCnt":"1","BssId":"1-2-2-2-2-2","OnlineTime":"3","AcIpv4Addr":"10.1.1.1","AcIpv6Addr":"12.23.4.5","ApName":"ap1","RadioID":"2","SSID":"wroam"},
+    {"MacAddress":"1-1-1-1-11-1","TrackCnt":"2","BssId":"2-2-2-2-2-2","OnlineTime":"3","AcIpv4Addr":"10.1.1.1","AcIpv6Addr":"12.23.4.5","ApName":"ap1","RadioID":"2","SSID":"wroam"},
+    {"MacAddress":"1-1-1-1-11-1","TrackCnt":"3","BssId":"3-2-2-2-2-2","OnlineTime":"3","AcIpv4Addr":"10.1.1.1","AcIpv6Addr":"12.23.4.5","ApName":"ap1","RadioID":"2","SSID":"wroam"},
+    {"MacAddress":"2-12-2-1-11-1","TrackCnt":"1","BssId":"1-2-2-2-2-2","OnlineTime":"3","AcIpv4Addr":"10.1.1.1","AcIpv6Addr":"14.23.6.5","ApName":"ap1","RadioID":"2","SSID":"wroam"},
+    {"MacAddress":"2-12-2-1-11-1","TrackCnt":"2","BssId":"2-2-2-2-2-2","OnlineTime":"3","AcIpv4Addr":"10.1.1.1","AcIpv6Addr":"14.23.6.5","ApName":"ap1","RadioID":"2","SSID":"wroam"},
+    {"MacAddress":"2-12-2-1-11-1","TrackCnt":"3","BssId":"3-2-2-2-2-2","OnlineTime":"3","AcIpv4Addr":"10.1.1.1","AcIpv6Addr":"14.23.6.5","ApName":"ap1","RadioID":"2","SSID":"wroam"},
+    {"MacAddress":"2-12-2-1-11-1","TrackCnt":"4","BssId":"4-2-2-2-2-2","OnlineTime":"3","AcIpv4Addr":"10.1.1.1","AcIpv6Addr":"14.23.6.5","ApName":"ap1","RadioID":"2","SSID":"wroam"},
+    {"MacAddress":"3-12-2-1-11-1","TrackCnt":"1","BssId":"1-2-2-2-2-2","OnlineTime":"3","AcIpv4Addr":"10.1.1.1","AcIpv6Addr":"14.23.6.5","ApName":"ap1","RadioID":"2","SSID":"wroam"},
+    {"MacAddress":"3-12-2-1-11-1","TrackCnt":"2","BssId":"2-2-2-2-2-2","OnlineTime":"3","AcIpv4Addr":"10.1.1.1","AcIpv6Addr":"14.23.6.5","ApName":"ap1","RadioID":"2","SSID":"wroam"},
+    {"MacAddress":"4-12-2-1-11-1","TrackCnt":"1","BssId":"1-2-2-2-2-2","OnlineTime":"3","AcIpv4Addr":"10.1.1.1","AcIpv6Addr":"14.23.6.5","ApName":"ap1","RadioID":"2","SSID":"wroam"}
+  ],
+  "RoamOutStation":
+  [
+   {"MacAddress":"1-1-1-1-11-1","VlanID":"3","BssID":"2-2-2-2-2-2","OnlineTime":"3","ForeignAcIpv4":"10.1.1.1","ForeignAcIpv6":"12.23.4.5","ApName":"ap1","RadioID":"2","SSID":"wroam"},
+   {"MacAddress":"2-1-1-1-11-1","VlanID":"3","BssID":"2-2-2-2-2-2","OnlineTime":"3","ForeignAcIpv4":"10.1.1.1","ForeignAcIpv6":"12.23.4.5","ApName":"ap1","RadioID":"2","SSID":"wroam"},
+   {"MacAddress":"3-1-1-1-11-1","VlanID":"3","BssID":"2-2-2-2-2-2","OnlineTime":"3","ForeignAcIpv4":"10.1.1.1","ForeignAcIpv6":"12.23.4.5","ApName":"ap1","RadioID":"2","SSID":"wroam"},
+   {"MacAddress":"4-1-1-1-11-1","VlanID":"3","BssID":"2-2-2-2-2-2","OnlineTime":"3","ForeignAcIpv4":"10.1.1.1","ForeignAcIpv6":"12.23.4.5","ApName":"ap1","RadioID":"2","SSID":"wroam"},
+   {"MacAddress":"5-1-1-1-11-1","VlanID":"3","BssID":"2-2-2-2-2-2","OnlineTime":"3","ForeignAcIpv4":"10.1.1.1","ForeignAcIpv6":"12.23.4.5","ApName":"ap1","RadioID":"2","SSID":"wroam"},
+   {"MacAddress":"6-1-1-1-11-1","VlanID":"3","BssID":"2-2-2-2-2-2","OnlineTime":"3","ForeignAcIpv4":"10.1.1.1","ForeignAcIpv6":"12.23.4.5","ApName":"ap1","RadioID":"2","SSID":"wroam"},
+   {"MacAddress":"7-1-1-1-11-1","VlanID":"3","BssID":"2-2-2-2-2-2","OnlineTime":"3","ForeignAcIpv4":"10.1.1.1","ForeignAcIpv6":"12.23.4.5","ApName":"ap1","RadioID":"2","SSID":"wroam"},
+   {"MacAddress":"8-1-1-1-11-1","VlanID":"3","BssID":"2-2-2-2-2-2","OnlineTime":"3","ForeignAcIpv4":"10.1.1.1","ForeignAcIpv6":"12.23.4.5","ApName":"ap1","RadioID":"2","SSID":"wroam"},
+  {"MacAddress":"9-12-2-1-11-1","VlanID":"4","BssID":"2-2-2-2-2-2","OnlineTime":"3","ForeignAcIpv4":"10.1.1.1","ForeignAcIpv6":"14.23.6.5"}
+
+  ],
+  "RoamInStation":
+  [
+    
+    {"MacAddress":"1-1-1-1-11-1","VlanID":"3","BssID":"2-2-2-2-2-2","OnlineTime":"3","HomeAcIpv4":"10.1.1.1","HomeAcIpv6":"12.23.4.5","ApName":"ap1","RadioID":"2","SSID":"wroam"},
+    {"MacAddress":"2-1-1-1-11-1","VlanID":"3","BssID":"2-2-2-2-2-2","OnlineTime":"3","HomeAcIpv4":"10.1.1.1","HomeAcIpv6":"12.23.4.5","ApName":"ap1","RadioID":"2","SSID":"wroam"},
+    {"MacAddress":"3-1-1-1-11-1","VlanID":"3","BssID":"2-2-2-2-2-2","OnlineTime":"3","HomeAcIpv4":"10.1.1.1","HomeAcIpv6":"12.23.4.5","ApName":"ap1","RadioID":"2","SSID":"wroam"},
+    {"MacAddress":"4-1-1-1-11-1","VlanID":"3","BssID":"2-2-2-2-2-2","OnlineTime":"3","HomeAcIpv4":"10.1.1.1","HomeAcIpv6":"12.23.4.5","ApName":"ap1","RadioID":"2","SSID":"wroam"},
+    {"MacAddress":"5-1-1-1-11-1","VlanID":"3","BssID":"2-2-2-2-2-2","OnlineTime":"3","HomeAcIpv4":"10.1.1.1","HomeAcIpv6":"12.23.4.5","ApName":"ap1","RadioID":"2","SSID":"wroam"},
+    {"MacAddress":"6-1-1-1-11-1","VlanID":"3","BssID":"2-2-2-2-2-2","OnlineTime":"3","HomeAcIpv4":"10.1.1.1","HomeAcIpv6":"12.23.4.5","ApName":"ap1","RadioID":"2","SSID":"wroam"},
+    {"MacAddress":"7-1-1-1-11-1","VlanID":"3","BssID":"2-2-2-2-2-2","OnlineTime":"3","HomeAcIpv4":"10.1.1.1","HomeAcIpv6":"12.23.4.5","ApName":"ap1","RadioID":"2","SSID":"wroam"},
+    {"MacAddress":"8-1-1-1-11-1","VlanID":"3","BssID":"2-2-2-2-2-2","OnlineTime":"3","HomeAcIpv4":"10.1.1.1","HomeAcIpv6":"12.23.4.5","ApName":"ap1","RadioID":"2","SSID":"wroam"},
+  {"MacAddress":"2-12-2-1-11-1","VlanID":"4","BssID":"2-2-2-2-2-2","OnlineTime":"3","HomeAcIpv4":"10.1.1.1","HomeAcIpv6":"14.23.6.5","ApName":"ap1","RadioID":"2","SSID":"wroam"}
+
+  ],
+  "MobilityIPv4Members":
+  [
+    {"GroupName":"1","MemberIpv4Address":"1.2.3.4","Status":"1","UpTime":"23"},
+    {"GroupName":"1","MemberIpv4Address":"2.2.3.4","Status":"1","UpTime":"23"},
+    {"GroupName":"1","MemberIpv4Address":"3.2.3.4","Status":"1","UpTime":"23"},
+    {"GroupName":"1","MemberIpv4Address":"4.2.3.4","Status":"1","UpTime":"23"},
+    {"GroupName":"1","MemberIpv4Address":"5.2.3.4","Status":"1","UpTime":"23"},
+    {"GroupName":"1","MemberIpv4Address":"6.2.3.4","Status":"1","UpTime":"23"},
+    {"GroupName":"1","MemberIpv4Address":"7.2.3.4","Status":"1","UpTime":"23"},
+    {"GroupName":"1","MemberIpv4Address":"8.2.3.4","Status":"1","UpTime":"23"},
+    {"GroupName":"1","MemberIpv4Address":"9.12.3.4","Status":"1","UpTime":"23"}
+  ],
+  "MobilityIPv6Members":
+  [
+    
+    {"GroupName":"1","MemberIpv6Address":"12.23.12.34","Status":"1","UpTime":"23"},
+    {"GroupName":"1","MemberIpv6Address":"1.12.3.4","Status":"1","UpTime":"34"}
+
+  ]  
+  ,"MobilityGroups":
+  [
+    {"Name":"1","TunnelType":"2","SourceIpv4Address":"10.153.17.20","SourceIpv6Address":"34.56.76.87","Enable":"true"}
+  ]
+
+  ,"FtInfo":
+   [
+      {"Name":"StName1","Enable":"True","Method":"1","ReassocTime":"20"},
+      {"Name":"StName3","Enable":"True","Method":"1","ReassocTime":"22"},
+      {"Name":"StName5","Enable":"True","Method":"0","ReassocTime":"21"},
+      {"Name":"StName6","Enable":"True","Method":"0","ReassocTime":"24"}
+  ]
+  ,"FtStatus":
+   [
+      {"MacAddress":"1-1-1-1-1-1","IsFtSta":"True"},
+      {"MacAddress":"2-1-1-1-1-1","IsFtSta":"False"},
+      {"MacAddress":"3-1-1-1-1-1","IsFtSta":"True"},
+      {"MacAddress":"4-1-1-1-1-1","IsFtSta":"False"}
+  ]
+
+  ,"ClientEdca":
+    [
+        {"ApName":"AP1","RadioId":"1","AccessCategory":"0","CacEnable":"true","Aifsn":"1","Ecwmin":"0","Ecwmax":"10","TxOpLimit":"222"},
+        {"ApName":"AP1","RadioId":"1","AccessCategory":"1","CacEnable":"true","Aifsn":"2","Ecwmin":"0","Ecwmax":"10","TxOpLimit":"222"},
+        {"ApName":"AP1","RadioId":"1","AccessCategory":"2","CacEnable":"true","Aifsn":"3","Ecwmin":"0","Ecwmax":"10","TxOpLimit":"222"},
+        {"ApName":"AP1","RadioId":"1","AccessCategory":"3","CacEnable":"true","Aifsn":"4","Ecwmin":"0","Ecwmax":"10","TxOpLimit":"222"},
+        {"ApName":"AP1","RadioId":"2","AccessCategory":"0","CacEnable":"true","Aifsn":"1","Ecwmin":"0","Ecwmax":"10","TxOpLimit":"222"},
+        {"ApName":"AP1","RadioId":"2","AccessCategory":"1","CacEnable":"true","Aifsn":"3","Ecwmin":"0","Ecwmax":"10","TxOpLimit":"222"},
+        {"ApName":"AP1","RadioId":"2","AccessCategory":"2","CacEnable":"true","Aifsn":"4","Ecwmin":"0","Ecwmax":"10","TxOpLimit":"222"},
+        {"ApName":"AP1","RadioId":"2","AccessCategory":"3","CacEnable":"true","Aifsn":"5","Ecwmin":"0","Ecwmax":"10","TxOpLimit":"222"},
+        {"ApName":"AP2","RadioId":"1","AccessCategory":"0","CacEnable":"true","Aifsn":"5","Ecwmin":"0","Ecwmax":"10","TxOpLimit":"222"},
+        {"ApName":"AP2","RadioId":"1","AccessCategory":"1","CacEnable":"true","Aifsn":"2","Ecwmin":"0","Ecwmax":"10","TxOpLimit":"222"},
+        {"ApName":"AP2","RadioId":"1","AccessCategory":"2","CacEnable":"true","Aifsn":"5","Ecwmin":"0","Ecwmax":"10","TxOpLimit":"222"},
+        {"ApName":"AP2","RadioId":"1","AccessCategory":"3","CacEnable":"true","Aifsn":"6","Ecwmin":"0","Ecwmax":"10","TxOpLimit":"222"},
+        {"ApName":"AP2","RadioId":"2","AccessCategory":"0","CacEnable":"true","Aifsn":"7","Ecwmin":"0","Ecwmax":"10","TxOpLimit":"222"},
+        {"ApName":"AP2","RadioId":"2","AccessCategory":"1","CacEnable":"true","Aifsn":"7","Ecwmin":"0","Ecwmax":"10","TxOpLimit":"222"},
+        {"ApName":"AP2","RadioId":"2","AccessCategory":"2","CacEnable":"true","Aifsn":"8","Ecwmin":"0","Ecwmax":"10","TxOpLimit":"222"},
+        {"ApName":"AP2","RadioId":"2","AccessCategory":"3","CacEnable":"true","Aifsn":"9","Ecwmin":"0","Ecwmax":"10","TxOpLimit":"222"}
+    ]
+    ,"RadioWmm":
+    [
+        {"ApName":"AP1","RadioId":"1","SvpMapAc":"3","CacPolicy":"2","CacUserNum":"2","CacChannelUtilization":"65","ChipQoSMode":"0","ChipMaxAIFSN":"3","ChipMaxECWmin":"1","ChipMaxECWmax":"7","ChipMaxTXOPLimit":"1","AccVoClientCnt":"2","AccViClientCnt":"4","VoReqMediumTime":"6","ViReqMediumTime":"0","InsufResRejCalls":"0","InvParaRejCalls":"0","InvMedRejCalls":"0","InvDlyRejCalls":"0"},
+
+        {"ApName":"AP1","RadioId":"2","SvpMapAc":"2","CacPolicy":"2","CacUserNum":"2","CacChannelUtilization":"65","ChipQoSMode":"1","ChipMaxAIFSN":"3","ChipMaxECWmin":"1","ChipMaxECWmax":"7","ChipMaxTXOPLimit":"1","AccVoClientCnt":"2","AccViClientCnt":"4","VoReqMediumTime":"6","ViReqMediumTime":"0","InsufResRejCalls":"0","InvParaRejCalls":"0","InvMedRejCalls":"0","InvDlyRejCalls":"0"},
+
+        {"ApName":"AP1","RadioId":"1","SvpMapAc":"3","CacPolicy":"1","CacUserNum":"2","CacChannelUtilization":"65","ChipQoSMode":"2","ChipMaxAIFSN":"22","ChipMaxECWmin":"1","ChipMaxECWmax":"7","ChipMaxTXOPLimit":"1","AccVoClientCnt":"2","AccViClientCnt":"4","VoReqMediumTime":"6","ViReqMediumTime":"0","InsufResRejCalls":"0","InvParaRejCalls":"0","InvMedRejCalls":"0","InvDlyRejCalls":"0"},
+
+        {"ApName":"AP1","RadioId":"2","SvpMapAc":"2","CacPolicy":"1","CacUserNum":"2","CacChannelUtilization":"65","ChipQoSMode":"3","ChipMaxAIFSN":"3","ChipMaxECWmin":"1","ChipMaxECWmax":"7","ChipMaxTXOPLimit":"1","AccVoClientCnt":"2","AccViClientCnt":"4","VoReqMediumTime":"6","ViReqMediumTime":"0","InsufResRejCalls":"0","InvParaRejCalls":"0","InvMedRejCalls":"0","InvDlyRejCalls":"0"}
+    ]
+    ,"StationWmmInformation":
+    [
+        {"MacAddress":"1-1-1","SSID":"liuxinlu1","QoSMode":"1","MaxSPLength":"7","BkUapsdState":"1","BeUapsdState":"2","ViUapsdState":"4","VoUapsdState":"6","BkAssoUapsdState":"2","BeAssoUapsdState":"4","ViAssoUapsdState":"6","VoAssoUapsdState":"1","UpCacPkts":"0","UpCacBytes":"0","DownCacPkts":"0","DownCacBytes":"0","DowngradePkts":"0","DowngradeBytes":"0","DropPkts":"0","DropBytes":"0"},
+
+        {"MacAddress":"2-2-2","SSID":"liuxinlu2","QoSMode":"2","MaxSPLength":"7","BkUapsdState":"0","BeUapsdState":"0","ViUapsdState":"0","VoUapsdState":"0","BkAssoUapsdState":"0","BeAssoUapsdState":"0","ViAssoUapsdState":"0","VoAssoUapsdState":"0","UpCacPkts":"0","UpCacBytes":"0","DownCacPkts":"0","DownCacBytes":"0","DowngradePkts":"0","DowngradeBytes":"0","DropPkts":"0","DropBytes":"0"},
+
+        {"MacAddress":"3-3-3","SSID":"liuxinlu3","QoSMode":"3","MaxSPLength":"7","BkUapsdState":"0","BeUapsdState":"0","ViUapsdState":"0","VoUapsdState":"0","BkAssoUapsdState":"0","BeAssoUapsdState":"0","ViAssoUapsdState":"0","VoAssoUapsdState":"0","UpCacPkts":"0","UpCacBytes":"0","DownCacPkts":"0","DownCacBytes":"0","DowngradePkts":"0","DowngradeBytes":"0","DropPkts":"0","DropBytes":"0"}
+
+    ]
+     ,"StationTrafficStream":
+    [
+        {"MacAddress":"1-1-1","AccessCategory":"0","TID":"1","Direction":"0","UserPriority":"7","PSB":"0","NominalMsduSize":"7","MeanDataRate":"10.000","MinimumPhyRate":"11.000","SurplusBWAllowance":"1.0000","MediumTime":"39","CreateTsTime":"0h:0m:5s","UpdateTsTime":"0h:0m:5s","UpTsPkts":"0","UpTsBytes":"0","DownTsPkts":"0","DownTsBytes":"0"},
+        {"MacAddress":"2-2-2","AccessCategory":"2","TID":"1","Direction":"1","UserPriority":"7","PSB":"0","NominalMsduSize":"7","MeanDataRate":"10.000","MinimumPhyRate":"11.000","SurplusBWAllowance":"1.0000","MediumTime":"39","CreateTsTime":"0h:0m:5s","UpdateTsTime":"0h:0m:5s","UpTsPkts":"0","UpTsBytes":"0","DownTsPkts":"0","DownTsBytes":"0"},
+        {"MacAddress":"3-3-3","AccessCategory":"3","TID":"1","Direction":"2","UserPriority":"7","PSB":"0","NominalMsduSize":"7","MeanDataRate":"10.000","MinimumPhyRate":"11.000","SurplusBWAllowance":"1.0000","MediumTime":"39","CreateTsTime":"0h:0m:5s","UpdateTsTime":"0h:0m:5s","UpTsPkts":"0","UpTsBytes":"0","DownTsPkts":"0","DownTsBytes":"0"}
+
+    ]
+    ,"StationSecurityInformation":
+    [
+        {"MacAddress":"11-11-11-11-11-12","AkmMethod":"0"},
+        {"MacAddress":"1-1-1","AccessCategory":"2","TID":"2"},
+        {"MacAddress":"3-3-3","AccessCategory":"3","TID":"3"}
+    ]
+}
+
+,"AP":{
+  "RadioOfManualAP" : [
+    {"ApName":"ap1","RadioID":"1","Mode":"1","Status":"enable","Bandwidth":"1"},
+    {"ApName":"ap1","RadioID":"2","Mode":"2","Status":"enable","Bandwidth":"2"},
+    {"ApName":"ap1","RadioID":"3","Mode":"3","Status":"enable","Bandwidth":"3"},
+    {"ApName":"ap1","RadioID":"4","Mode":"4","Status":"disable","Bandwidth":"4"},
+    {"ApName":"ap1","RadioID":"5","Mode":"5","Status":"enable","Bandwidth":"5"},
+    {"ApName":"ap2","RadioID":"1","Mode":"7","Status":"enable","Bandwidth":"17"},
+    {"ApName":"ap2","RadioID":"2","Mode":"6","Status":"enable","Bandwidth":"18"},
+    {"ApName":"ap2","RadioID":"3","Mode":"5","Status":"disable","Bandwidth":"18"},
+    {"ApName":"ap2","RadioID":"4","Mode":"4","Status":"enable","Bandwidth":"17"},
+    {"ApName":"ap3","RadioID":"1","Mode":"3","Status":"enable","Bandwidth":"5"},
+    {"ApName":"ap3","RadioID":"2","Mode":"2","Status":"enable","Bandwidth":"4"},
+    {"ApName":"ap3","RadioID":"3","Mode":"1","Status":"disable","Bandwidth":"3"},
+    {"ApName":"ap3","RadioID":"4","Mode":"7","Status":"enable","Bandwidth":"2"},
+    {"ApName":"ap4","RadioID":"1","Mode":"6","Status":"enable","Bandwidth":"1"},
+    {"ApName":"ap4","RadioID":"2","Mode":"5","Status":"enable","Bandwidth":"1"},
+    {"ApName":"ap4","RadioID":"3","Mode":"4","Status":"enable","Bandwidth":"2"},
+    {"ApName":"ap4","RadioID":"4","Mode":"3","Status":"enable","Bandwidth":"3"}
+  ]
+  ,"RadioRunningCfg":
+  [
+    {"ApName":"ap1","RadioID":"2","Mode":"1","SupportDot11B":"true","SupportDot11A":"false","SupportDot11G":"true","SupportDot11GN":"true","SupportDot11AN":"false","SupportDot11AC":"true","Bandwidth":"4","Spectrum":"1","Status":"1","RateMulticast":6,"RateMandatory":"1,2,4,5,6,10,12","RateSupported":"1,4,5","RateDisabled":"7,8,9","Preamble":"true","BeaconInterval":"33","ChannelAutoLock":"true","PowerLock":"enable","Distance":"3","MaxRxDuration":"500","FragmentThreshold":"256","LongRetryThreshold":"2","ProtectionThreshold":"1","ShortRetryThreshold":"1","CfgChannel":"155","CfgMaxPower":"12"},
+    {"ApName":"ap1","RadioID":"1","Mode":"2","SupportDot11B":"true","SupportDot11A":"false","SupportDot11G":"true","SupportDot11GN":"true","SupportDot11AN":"false","SupportDot11AC":"true","Bandwidth":"2","Spectrum":"1","Status":"1","RateMulticast":"6","RateMandatory":["6","9"],"RateSupported":["1","12"],"RateDisabled":["1","3"],"Preamble":"true","BeaconInterval":"33","ChannelAutoLock":"true","PowerLock":"enable","Distance":"3","MaxRxDuration":"500","FragmentThreshold":"256","LongRetryThreshold":"2","ProtectionThreshold":"1","ShortRetryThreshold":"1","CfgChannel":"10","CfgMaxPower":"12"},
+    {"ApName":"ap2","RadioID":"1","Mode":"2","SupportDot11B":"true","SupportDot11A":"false","SupportDot11G":"true","SupportDot11GN":"true","SupportDot11AN":"false","SupportDot11AC":"true","Bandwidth":"1","Spectrum":"1","Status":"0","RateMulticast":"6","RateMandatory":["6","9"],"RateSupported":["1","12"],"RateDisabled":["1","3"],"Preamble":"true","BeaconInterval":"33","ChannelAutoLock":"true","PowerLock":"enable","Distance":"3","MaxRxDuration":"500","FragmentThreshold":"256","LongRetryThreshold":"2","ProtectionThreshold":"1","ShortRetryThreshold":"1","CfgChannel":"149","CfgMaxPower":"12"},
+    {"ApName":"ap2","RadioID":"2","Mode":"1","SupportDot11B":"true","SupportDot11A":"false","SupportDot11G":"true","SupportDot11GN":"true","SupportDot11AN":"false","SupportDot11AC":"true","Bandwidth":"5","Spectrum":"1","Status":"0","RateMulticast":"6","RateMandatory":["6","9"],"RateSupported":["1","12"],"RateDisabled":["1","3"],"Preamble":"true","BeaconInterval":"33","ChannelAutoLock":"true","PowerLock":"enable","Distance":"3","MaxRxDuration":"500","FragmentThreshold":"256","LongRetryThreshold":"2","ProtectionThreshold":"1","ShortRetryThreshold":"1","CfgChannel":"11","CfgMaxPower":"12"},
+    {"ApName":"ap3","RadioID":"1","Mode":"1"},
+    {"ApName":"ap4","RadioID":"2","Mode":"1"}
+  ]
+  ,"ManualAP":
+    [
+        {"Name":"ap1","Status":"1","GroupName":"Group-1","LocationName":"default-location","Model":"WA2620","CfgSerialID":"219801A0CNC11A000000","CfgMacAddress":"00-d0-1e-00-00-00","RadioNum":"1","RegionCode":"5","RegionLock":"1","Priority":"2","Preempt":"false","EchoInterval":"70","EchoCount":"7","RetransInterval":"9","RetransCount":"9","TunnelEncryption":"50","StatisInterval":"388","FirmwareUpgrade":"Enable","BackupACIPv4":"153.242.106.220","BackupACIPv6":"240:231::27:203"},
+        {"Name":"ap2","Status":"1","GroupName":"Group-1","LocationName":"default-location","Model":"WA2620i-AGN","CfgSerialID":"219801A0CNC11A000001","CfgMacAddress":"00-01-e3-00-00-00","RadioNum":"2","RegionCode":"3","Priority":"3","Preempt":"false","EchoInterval":"47","EchoCount":"12","RetransInterval":"19","RetransCount":"4","TunnelEncryption":"1078","StatisInterval":"362","FirmwareUpgrade":"Enable","BackupACIPv4":"90.195.199.45","BackupACIPv6":"22:112::72:90"},
+        {"Name":"ap3","Status":"2","GroupName":"Group-1","LocationName":"default-location","Model":"WA2620i-AGN","CfgSerialID":"219801A0CNC11A000002","CfgMacAddress":"00-01-e3-00-00-00","RadioNum":"3","RegionCode":"8","Priority":"6","Preempt":"true","EchoInterval":"12","EchoCount":"19","RetransInterval":"13","RetransCount":"11","TunnelEncryption":"1009","StatisInterval":"592","FirmwareUpgrade":"Enable","BackupACIPv4":"48.253.161.133","BackupACIPv6":"60:105::14:160"},
+        {"Name":"ap4","Status":"3","GroupName":"Group-2","LocationName":"default-location","Model":"WA2620i-AGN","CfgSerialID":"219801A0CNC11A000003","CfgMacAddress":"00-04-0d-00-00-00","RadioNum":"1","RegionCode":"1","Priority":"4","Preempt":"true","EchoInterval":"54","EchoCount":"12","RetransInterval":"19","RetransCount":"15","TunnelEncryption":"781","StatisInterval":"323","FirmwareUpgrade":"Disable","BackupACIPv4":"179.215.215.27","BackupACIPv6":"238:112::32:226"}      
+    ]
+}
+
+,"WIPS":{
+"GlobalAps":
+[
+{"ApName":"ap1"},
+{"ApName":"ap2"},
+{"ApName":"ap3"},
+{"ApName":"ap4"},
+{"ApName":"ap5"}
+]
+,"GlobalConfigures":
+[
+{"Type":"0","State":"0"},
+{"Type":"1","State":"1"},
+{"Type":"2","State":"0"},
+{"Type":"2","State":"1"},
+{"Type":"3","State":"0"}
+]
+}
+,"WM2U":{
+  "ServiceTemplateStates": [
+      {"ServiceTemplateName":"StName1","AddressType":"0","State":"disable"},
+      {"ServiceTemplateName":"StName1","AddressType":"1","State":"enable"}
+  ]
+}
+,"BYOD":{
+  "MacRules": [
+      {"MacAddr":"11-11-11-11-11-12","MacMask":"ff-ff-ff-00-00-00","DeviceType":"Nokia"}
+  ]
+}
+
+,"Ifmgr":{
+  "Interfaces": [
+      {"IfIndex":"262","PortIndex":"0","AbbreviatedName":"TenGE2/0/1", "Name":"Ten-GigabitEthernet2/0/1", "ifTypeExt":"22","Description":"Ten-GigabitEthernet2/0/1 Interface","Shutdown":"0","PhyState":"0","ConfigSpeed":"10000","ActualSpeed":"10000","ConfigDuplex":"3","ActualDuplex":"1","PhysicalIndex":"1","PortLayer":"2","InetAddressIPV4":"10.153.17.20","InetAddressIPV4Mask":"255.255.255.0","OperStatus":"1"}
+      ,{"IfIndex":"263","PortIndex":"1","AbbreviatedName":"TenGE2/0/2", "Name":"Ten-GigabitEthernet2/0/2", "ifTypeExt":"23","Description":"Ten-GigabitEthernet2/0/2 Interface","Shutdown":"0","PhyState":"1","ConfigSpeed":"10000","ActualSpeed":"10000","ConfigDuplex":"3","ActualDuplex":"1","PhysicalIndex":"84071","PortLayer":"1","OperStatus":"2","LinkType":"1"}
+      ,{"IfIndex":"264","PortIndex":"2","AbbreviatedName":"TenGE2/0/3", "Name":"Ten-GigabitEthernet2/0/3", "ifTypeExt":"66","Description":"Ten-GigabitEthernet2/0/3 Interface","Shutdown":"0","PhyState":"0","ConfigSpeed":"10000","ActualSpeed":"10000","ConfigDuplex":"3","ActualDuplex":"1","PhysicalIndex":"84072","PortLayer":"1","OperStatus":"2","LinkType":"2"}
+      ,{"IfIndex":"265","PortIndex":"3","AbbreviatedName":"TenGE2/0/4", "Name":"Ten-GigabitEthernet2/0/4", "ifTypeExt":"66","Description":"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaggggggggggggggggeeeee","Shutdown":"0","PhyState":"0","ConfigSpeed":"10000","ActualSpeed":"10000","ConfigDuplex":"3","ActualDuplex":"1","PhysicalIndex":"84073","PortLayer":"1","InetAddressIPV4":"127.0.0.1","OperStatus":"2","LinkType":"3"}
+  ]
+}
+,"UserAccounts":
+{
+    "UserGroups":
+    [
+    {"UserGroup":"Group1","VideoApplication":"¡ü100¡ý100","DownloadApplication":"¡ü10¡ý10","GameApplication":"¡ü1000¡ý1000","ShoppingApplication":"¡ü100¡ý100"},
+    {"UserGroup":"Group2","VideoApplication":"¡ü100¡ý100","DownloadApplication":"¡ü10¡ý10","GameApplication":"¡ü1000¡ý1000","ShoppingApplication":"¡ü100¡ý100"},
+    {"UserGroup":"Group3","VideoApplication":"¡ü100¡ý100","DownloadApplication":"¡ü10¡ý10","GameApplication":"¡ü1000¡ý1000","ShoppingApplication":"¡ü100¡ý100"},
+    {"UserGroup":"Group4","VideoApplication":"¡ü100¡ý100","DownloadApplication":"¡ü10¡ý10","GameApplication":"¡ü1000¡ý1000","ShoppingApplication":"¡ü100¡ý100"}
+    ]
+    ,"NetAccounts":
+    [
+    {"Name":"Group1","GroupName":"Group5","MacAddress":"12-22-33-66-55-77"},
+    {"Name":"Group2","GroupName":"Group6","MacAddress":"13-22-33-66-55-77"},
+    {"Name":"Group3","GroupName":"Group7","MacAddress":"14-22-33-66-55-77"},
+    {"Name":"Group4","GroupName":"Group8","MacAddress":"15-22-33-66-55-77"}
+    ]
+}
+}

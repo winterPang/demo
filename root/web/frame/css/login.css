@@ -1,0 +1,198 @@
+/* logo page */
+.login {
+    background: #fff !important;
+    margin: 0;
+    padding: 0;
+    font-family: "proxima-nova-1","proxima-nova-2", 'Helvetica Neue',Helvetica, verdana, sans-serif;
+}
+.bg {
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: -999;
+}
+.wrapper{
+    text-align: center;
+    margin-top: 60px;
+}
+.wrapper .logo{
+    background: url(image/login-icon.png) no-repeat -30px -16px;
+    height: 96px;
+    width: 170px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 60px;
+}
+.wrapper .ad-block{
+    width: 100%;
+    height: 380px;
+    background: #FFF;
+}
+.wrapper .ad-panel{
+    width: 740px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}
+.wrapper .ad-panel .advertisement{
+    width: 740px;
+    height: 380px;
+    overflow: hidden;
+}
+.wrapper .ad-panel ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 2220px;
+    position: relative;
+    left: 0;
+}
+.wrapper .ad-panel ul>li{
+    float: left;
+}
+.wrapper .ad-panel .flow-btn{
+    position: absolute;
+    display: block;
+    width: 32px;
+    height: 42px;
+    background: url(image/login-icon.png) no-repeat;
+    cursor: pointer;
+}
+.wrapper .ad-panel .left{
+    background-position: -49px -245px;
+    top: 169px;
+    left: -100px;
+}
+.wrapper .ad-panel .left:hover{
+    background-position: -49px -162px;
+}
+.wrapper .ad-panel .right{
+    background-position: -102px -245px;
+    top: 169px;
+    right: -100px;
+}
+.wrapper .ad-panel .right:hover{
+    background-position: -102px -162px;
+}
+
+.wrapper .login-block{
+    margin-top: 32px;
+    position: relative;
+    padding-top: 28px;
+}
+.wrapper .login-block .icon{
+    display: inline-block;
+    width: 268px;
+    height: 46px;
+    background: url(image/login-icon.png) no-repeat;
+}
+.login-block .input{
+    width: 200px;
+    height: 34px;
+    position: absolute;
+    top: 6px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    margin-left: -224px;
+}
+.login-block .error-msg{
+    color: #FFF;
+    font-size: 20px;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    margin-left: -80px;
+}
+#pwd_cnt{
+    position: relative;
+}
+#pwd_cnt .icon{
+    background-position: -32px -338px;
+}
+#pwd_cnt .login-btn{
+    display: inline-block;
+    width: 50px;
+    height: 48px;
+    background: url(image/login-icon.png) no-repeat;
+    background-position: -316px -334px;
+    position: absolute;
+    top: -4px;
+    margin-left: 10px;
+}
+#pwd_cnt .login-btn.login-enable:hover{
+    background-position: -380px -334px;
+    cursor: pointer;
+}
+#vcode_cnt{
+    position: relative;
+    margin-top: 20px;
+    display: none;
+}
+#vcode_cnt .icon{
+    background-position: -307px -155px;
+}
+#img_vcode{
+    border: solid #F2F2F2;
+    border-width: 5px 8px;
+    height: 24px;
+    width: 70px;
+    position: absolute;
+    top: 12px;
+    margin-left: 18px;
+}
+
+@media (max-height: 725px) {
+    .wrapper{
+        margin-top: 40px;
+    }
+    .wrapper .logo{
+        margin-bottom: 40px;
+    }
+    .wrapper .login-block{
+        margin-top: 12px;
+    }
+}
+@media (max-height: 665px) {
+    .wrapper{
+        margin-top: 25px;
+    }
+    .wrapper .logo{
+        margin-bottom: 25px;
+    }
+    .wrapper .login-block{
+        margin-top: 0px;
+    }
+}
+@media (max-height: 635px) {
+    .wrapper{
+        margin-top: 10px;
+    }
+    .wrapper .logo{
+        margin-bottom: 10px;
+    }
+    .wrapper .login-block{
+        margin-top: 0px;
+    }
+}
+@media (max-height: 605px) {
+    .wrapper{
+        margin-top: 2px;
+    }
+    .wrapper .logo{
+        margin-bottom: 2px;
+    }
+    .wrapper .login-block{
+        margin-top: 0px;
+    }
+}
+@media (min-width: 1680px) {
+    .bg img{
+        width: 1920px;
+    }
+}
+
+
+

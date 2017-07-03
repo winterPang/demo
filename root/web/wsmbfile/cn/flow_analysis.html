@@ -1,0 +1,209 @@
+<html>
+<head>
+</head>
+<body>
+<div class="page-row">
+  <div class="col-xs-12 app-colum">
+    <div class="app-box no-bk-color">
+      <div class="box-footer">
+        <span class="title">应用流量分析</span>
+      </div>
+      <div class="box-body no-height">
+        <div class="col-xs-6 response-block">
+          <div id="anaylsis_pie" class="col-xs-12 myEchart"></div>
+          <div id="anaylsis_pie-Legend" class="panel"></div>
+        </div>
+        <div  class="col-xs-6 response-block">
+          <div id="usage" name="usage" class="myEchart">
+        </div>
+    </div>
+  </div>
+</div>
+<div class="page-row">
+  <div class="col-xs-6 app-colum left-block">
+    <div class="app-box no-bk-color">
+      <div class="box-footer">
+        <span class="title">有线端口流量</span>
+      </div>
+      <div class="box-body echart-height form-group body-nopadding">
+        <div id="line_port_flow" class="myEchart col-xs-12"></div>
+      </div>
+    </div>
+  </div>
+  <div class="col-xs-6 app-colum right-block">
+    <div class="app-box no-bk-color">
+      <div class="box-footer">
+        <span class="title">AP流量</span>
+      </div> 
+      <div class="box-body echart-height form-group body-nopadding">
+        <div id="ap_flow" class="myEchart col-xs-12"></div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="page-row">
+  <div class="col-xs-12 app-colum">
+    <div class="app-box">
+      <div class="box-footer">
+          
+          <span class="title">无线终端流量</span>
+          
+          <div class="text-right link-container">
+                <a type="button" class="link-send active" id="btn_send" title="View Details">
+                  <span>发送</span>
+                </a>
+                |
+                <a type="button" class="link-receive" id="btn_receive" title="View Details">
+                  <span>接收</span>
+                </a>
+          </div> 
+      </div>
+      <div class="box-body no-height form-group">
+        <div id="wireless_list" class="simple-list"></div>  
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="hide modal fade" id="TerminalInfoDlg">
+  <form class="form-horizontal form" id="view_client_form">
+      <!--         <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+            <h3 class="modal-title">终端基本信息</h3>
+        </div> -->
+        <div class="col-sm-5">
+            <div class="form-group">
+                <label class="col-sm-5 control-label info-explain">MAC地址</label>
+                <span class="label form-if-setHtml" id="MacAddress"></span>
+            </div>
+
+            <div class="form-group">
+                <label class="col-sm-5 control-label info-explain">用户名</label>
+                <span class="label form-if-setHtml" id="UserName"></span>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-5 control-label info-explain">AP名称</label>
+                <span class="label form-if-setHtml" id="ApName"></span>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-5 control-label info-explain">射频</label>
+                <span class="label form-if-setHtml" id="RadioId"></span>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-5 control-label info-explain">信道</label>
+                <span class="label form-if-setHtml"  id="Channel"></span>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-5 control-label info-explain">SSID</label>
+                <span class="label form-if-setHtml" id="Ssid"></span>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-5 control-label info-explain">BSSID</label>
+                <span class="label form-if-setHtml" id="Bssid"></span>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-5 control-label info-explain">绑定VLAN</label>
+                <span class="label form-if-setHtml" id="VLAN"></span>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-5 control-label info-explain">安全模式</label>
+                <span class="label form-if-setHtml" id="ClientType"></span>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-5 control-label info-explain">加密套件</label>
+                <span class="label form-if-setHtml" id="EncryptionCipher"></span>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-5 control-label info-explain">休眠次数</label>
+                <span class="label form-if-setHtml" id="PowerSaveMode"></span>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-5 control-label info-explain">侦听间隔</label>
+                <span class="label form-if-setHtml" id="ListenInterval"></span><span> 秒</span>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-5  control-label "><strong></strong></label>
+            </div>
+        </div>
+        <div class="col-sm-7">
+            <div class="form-group">
+                <label class="col-sm-5 control-label info-explain">发送速率</label>
+                <span class="label form-if-setHtml" id="TxRate"></span><span> Mbps</span>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-5 control-label info-explain">接收速率</label>
+                <span class="label form-if-setHtml" id="RxRate"></span><span> Mbps</span>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-5 control-label info-explain">在线时长</label>
+                <span class="label form-if-setHtml" id="UpTime"></span><span> 秒</span>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-5 control-label info-explain">QoS模式</label>
+                <span class="label form-if-setHtml" id="QoSMode"></span>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-5 control-label info-explain">IPv4地址</label>
+                <span class="label form-if-setHtml" id="Ipv4Address"></span>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-5 control-label info-explain">IPv6地址</label>
+                <span class="label form-if-setHtml" id="Ipv6Address"></span>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-5 control-label info-explain">无线模式</label>
+                <span class="label form-if-setHtml" id="WirelessMode"></span>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-5 control-label info-explain">支持速率</label>
+                <span class="label form-if-setHtml" id="SupportedRate"></span><span> Mbps</span>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-5 control-label info-explain">信噪比</label>
+                <span class="label form-if-setHtml" id="SNR"></span>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-5 control-label info-explain">设备类型</label>
+                <span class="label form-if-setHtml" id="DeviceType"></span>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-5 control-label info-explain">设备分类</label>
+                <span class="label form-if-setHtml" id="ClassifyDeviceType"></span>
+            </div>
+        </div>
+    </form>
+</div>
+<div class="hide modal fade" id="flowdetailDlg">
+  <form class="form-horizontal form" id="flowdetail_form">
+      <div class="box-body no-height form-group">
+        <div id="flowdetail_list" class="simple-list"></div>  
+      </div>
+      <div class="modal-footer form-actions">
+      <a class="btn btn-primary" dlgtype="Close" data-dismiss="modal"><i class="icon-close"></i>关闭</a>
+    </div>
+  </form>
+</div>
+
+<div id="flow_analysis_rc" class="rc-define"
+      LABELS = "BitTorrent,迅雷,电驴,视频,微信,微博,京东,淘宝"
+      WIRELESSMODE="802.11b,802.11a,802.11g,802.11gn,802.11an,802.11ac"
+      WIRELESS_HEADER="MAC地址,频段,字节数,报文数,速率,流量分类"
+      FLOWDETAIL_HEADER="流量分类,详情"
+      TYPE_FORTEXT="视频,下载, 游戏,购物"
+      TYPESXQ_0 = "优酷,搜狐视频,土豆,PPLive,BILIBILI,爱奇艺,BLABLA"
+      TYPESXQ_1 = "BT,电驴,迅雷,BLABLA"
+      TYPESXQ_2 = "腾讯游戏,魔兽世界,BLABLA"
+      TYPESXQ_3 = "淘宝,京东,亚马逊,当当,顺风优选,BLABLA"
+      LEGEND="接收,发送"
+      UP_DOWN="上行,下行"
+      Tips="无信息"
+      NAMELINE="流量分析"
+      TITLE_TERINFO="终端基本信息"
+      TITLE_FLOWINFO="流量详情"
+    >
+</div>
+</body>
+</html>
+<script language="javascript" type="text/javascript">
+    Utils.Pages.loadJS("wsmbfile.Flow_analysis");
+</script>

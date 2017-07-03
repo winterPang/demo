@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="GB2312"?>
+<menu-root>
+	<menu id="M_System">
+		<menu id="M_Dashboard" access="read|write|execute" url="wsmbfile/[lang]/summary.html"/>
+		<menu id="M_ClientInfor" access="read|write|execute" url="wsmbfile/[lang]/terminalinfo.html"/>
+		<menu id="M_RateAnalyse" access="read|write|execute" url="wsmbfile/[lang]/flow_analysis.html"/>
+		<menu id="M_DeviceInfor" access="read|write|execute" url="wsmbfile/[lang]/device_info.html"/>
+		<menu id="M_NetworkInfor" access="read|write|execute" url="wsmbfile/[lang]/net_info.html"/>
+	</menu>
+	<menu id="M_Monitoring">
+		<menu id="M_MonProbe" access="read|write|execute"  url="clientprobe/[lang]/statistics.html" />
+		<menu id="M_MonDPI" cn="DPI" en="DPI">
+			<menu id="M_MonDPI" cn="IPv4" en="IPv4"  access="read|write|execute" url="drs/[lang]/dpi_ipv4.html" />
+			<menu id="M_MonDPI6" cn="IPv6" en="IPv6"  access="read|write|execute" url="drs/[lang]/dpi_ipv6.html" />
+		</menu>
+	</menu>
+
+	<!--<menu id="M_QuickNav">
+		<menu id="I_QuickNav" access="read|write|execute" url="wsmbfile/[lang]/quick_config.html"/>
+	</menu>
+	<menu id="M_NetworkCfg">
+		<menu id="I_NetworkCfg" access="read|write|execute" url="wsmbfile/[lang]/networkcfg.html"/>
+	</menu>
+	<menu id="M_WirelessCfg">
+		<menu id="I_WirelessCfg" access="read|write|execute" url="wsmbfile/[lang]/wireless_setting.html"/>
+	</menu>
+	<menu id="M_UserManager">
+		<menu id="I_UserManager" access="read|write|execute" url="wsmbfile/[lang]/user_manager.html"/>
+	</menu>
+	<menu id="M_SecurityPolicy">
+		<menu id="I_SecurityPolicy" access="read|write|execute" url="wsmbfile/[lang]/securitypolicy.html"/>
+	</menu>
+	<menu id="M_AppManager">
+		<menu id="I_AppManager" access="read|write|execute" url="wsmbfile/[lang]/app_manager.html"/>
+	</menu>
+	<menu id="M_SystemCfg">
+		<menu id="I_SystemCfg" access="read|write|execute" url="wsmbfile/[lang]/systemsetting.html" action=";config/export_diaginfo.j;file/download.j;reboot.j;"/>
+	</menu>-->
+</menu-root>
+<!-- 
+	Access List:
+	;config/restore.j;config/export.j;config/export_diaginfo.j;file/upload.j;file/delete.j;file/download.j;reboot.j; 
+-->

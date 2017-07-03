@@ -1,0 +1,133 @@
+<html>
+<head>
+<body>	
+
+<div class="col-xs-12 app-colum">
+    <div class="app-box">
+        <div class="box-footer">
+            <span class="title">AP列表</span>
+      	</div>	      
+	    <div class="box-body no-height" id="AP-Info">
+	        <div id="apList" class="simple-list"></div>  
+	        <div id="Opendlg"></div>
+	    </div>
+    </div>
+</div>
+
+<div class="hide modal fade" id="ApNameDlg">
+	<form class="form-horizontal form" id="ApNameForm">
+		<div class="form-group">
+	        <label class="col-sm-3 control-label">原名称</label>
+	        <label class="col-sm-9 control-label" id="OldAP" name="OldAP"></label>
+	    </div>
+
+	    <div class="form-group">
+	        <label class="col-sm-3 control-label required">新名称</label>
+	        <div class="col-sm-9">
+	            <input type="text" class="string required" id="NewAP" name="NewAP" maxlength="64"/>
+	            <label class="info-explain">（1-64字符）</label>
+	            <label class="error" id="NewName_error"></label>
+	        </div>
+	    </div>
+	</form>
+</div>
+
+<div class="hide modal fade" id="StatusDlg">
+	<form class="form-horizontal form" id="StatusForm">
+		<div class="form-group">
+	        <label class="col-sm-3 control-label">AP名称</label>
+	        <label class="col-sm-9 control-label" id="StatusAP" name="StatusAP"></label>
+	    </div>
+
+		<div class="form-group">
+	        <label class="col-sm-3 control-label">射频</label>
+	        <label class="col-sm-9 control-label" id="StatusRadio" name="StatusRadio"></label>
+	    </div>
+
+		<div class="form-group">
+	        <label class="col-sm-3 control-label">状态</label>
+	        <div class="col-sm-9">
+	            <input type="checkbox" class="switch" id="Status" name="Status"/>
+	        </div>
+	    </div>
+	</form>
+</div>
+
+<div class="hide modal fade" id="PowerDlg">
+	<form class="form-horizontal form" id="PowerForm">
+		<div class="form-group">
+	        <label class="col-sm-3 control-label">AP名称</label>
+	        <label class="col-sm-9 control-label" id="PowerAP" name="PowerAP"></label>
+	    </div>
+		<div class="form-group">
+	        <label class="col-sm-3 control-label">射频</label>
+	        <label class="col-sm-9 control-label" id="PowerRadio" name="PowerRadio"></label>
+	    </div>
+
+		<div class="form-group">
+	        <label class="col-sm-3 control-label">功率模式</label>
+            <div class="col-sm-9">
+	            <div class="col-sm-3">
+		            <input type="radio" id="PL0" name="PowerLevel" value="0" checked />
+		            <label for="PL0">节电</label>
+	            </div>
+	            <div class="col-sm-3">
+		            <input type="radio" id="PL1" name="PowerLevel" value="1"/>
+		            <label for="PL1" >正常</label>
+	            </div>
+	            <div class="col-sm-5">
+	                <input type="radio" id="PL2" name="PowerLevel" value="2"/>
+	                <label for="PL2">穿墙</label>
+	            </div>
+            </div>
+	    </div>
+	</form>
+</div>
+
+<div class="hide modal fade" id="ChannelDlg">
+	<form class="form-horizontal form" id="PowerForm">
+		<div class="form-group">
+	        <label class="col-sm-3 control-label">AP名称</label>
+	        <label class="col-sm-9 control-label" id="ChannelAP" name="ChannelAP"></label>
+	    </div>
+		<div class="form-group">
+	        <label class="col-sm-3 control-label">射频</label>
+	        <label class="col-sm-9 control-label" id="ChannelRadio" name="ChannelRadio"></label>
+	    </div>
+
+		<div class="form-group">
+	        <label class="col-sm-3 control-label">当前信道</label>
+            <div class="col-sm-9" id="Channel"></div>
+	    </div>
+	</form>
+</div>
+
+<div id="ws_aps_rc" class="rc-define"
+    AP_HEADER = "AP名称,5GHz状态,5GHz信道,5GHz功率,2.4GHz状态,2.4GHz信道,2.4GHz功率"
+    STATUS = "关闭,开启"
+    RENAME_TITLE = "修改AP名称"
+    STATUS_TITLE = "状态"
+    POWER_TITLE = "功率调整"
+    POWER_LEVEL = "节电,适中,穿墙"
+></div>
+</body>
+</html>
+<script language="javascript" type="text/javascript">
+    Utils.Pages.loadJS("wsmbfile.ws_aps");
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

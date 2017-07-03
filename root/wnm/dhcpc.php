@@ -1,0 +1,10 @@
+{
+"DHCPC":
+{
+	"DHCPAlloc":
+	[
+		{"IfIndex":"6","AllocEnable":"false"}
+		,{"IfIndex":"200","AllocEnable":"false"}
+	]
+}
+}

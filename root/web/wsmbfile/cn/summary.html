@@ -1,0 +1,116 @@
+<html>
+<head>
+</head>
+<body>
+<div class="page-row">
+	<div class="col-xs-6 app-colum left-block">
+		<div class="app-box no-bk-color">
+			<div class="box-footer">
+				<span class="title">设备概览</span>
+			</div>
+			<div class="box-body dashboard-height">
+				<div class="panel" id="topology"></div>
+				<div class="center-summary" style="margin-top:30px;">
+					<table class="table table-bordered">
+			            <tr>
+			              <th><label class="netinfo-basic">Internet</label></th>
+			              <th><label class="netinfo-basic">5GHz无线服务</label></th>
+			              <th><label class="netinfo-basic">5GHz环境质量</label></th>
+			            </tr>
+			            <tr>
+			              <th><label class="netinfo-good">正常</label></th>
+			              <th><label class="netinfo-good">良好</label></th>
+			              <th><label class="netinfo-good">良好</label></th>
+			            </tr>
+			            <tr>
+			              <th><label class="netinfo-basic">云服务</label></th>
+			              <th><label class="netinfo-basic">2.4GHz无线服务</label></th>
+			              <th><label class="netinfo-basic">2.4GHz环境质量</label></th>
+			            </tr>
+			            <tr>
+			              <th><label class="netinfo-bad">连接中断</label><a href="#" class="xb-link netinfo-repair" id="cloud">修复</a></th>
+			              <th><label class="netinfo-bad">较差</label><a href="#" class="xb-link netinfo-repair" id="2Gwireless">修复</a></th>
+			              <th><label class="netinfo-bad">较差</label><a href="#" class="xb-link netinfo-repair" id="2Gquality">详情</a></th>
+			            </tr>
+			        </table>
+			    </div>
+			</div>
+		</div>
+	</div>
+
+	<div class="col-xs-6 app-colum right-block">
+		<div class="app-box no-bk-color">
+			<div class="box-footer">
+				<div class="col-xs-3">
+					<span class="title">出口流量</span>
+				</div>
+			</div>
+			<div class="box-body echart-height form-group body-nopadding">
+				<div id="outletflow" class="col-xs-12 myEchart"></div>
+			</div>
+		</div>
+		<div class="app-box no-bk-color">
+			<div class="box-footer">
+				<span class="title">应用流量</span>
+				<div class="text-right link-container">
+					<a type="button" class="link-send active" id="sendmsg" title="View Details">
+					<span>发送</span>
+					</a>
+					|
+					<a type="button" class="link-receive" id="recvmsg" title="View Details">
+					<span>接收</span>
+					</a>
+				</div>
+			</div>
+			<div class="box-body mini-height form-group body-nopadding">
+				<div id="appflow" class="col-xs-12 myEchart"></div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="page-row">
+<!-- 页面中最顶级元素 类名：page-row-->
+	<div class="col-xs-6 app-colum left-block">
+		<div class="app-box no-bk-color">
+			<div class="box-footer">
+				<span class="title">接入终端</span>
+			</div>
+    		<div class="box-body body-nopadding">
+				<div class="align-right" id="terminalNum">
+					<span class="netinfo-basic">无线终端</span>
+					<span class="font-36" id="wlNum">98</span>
+					<span class="netinfo-basic">有线终端</span>
+					<span class="font-36" id="wdNum">8</span>
+				</div>
+				<div id="accessterminal" class="col-xs-12 myEchart" style="margin-top:37px;"></div>
+				<div id="accessLegend" class="col-xs-6 panel"></div>
+			</div>
+		</div>
+	</div>
+	<div class="col-xs-6 app-colum">
+		<div class="app-box no-bk-color" id="terminaltype_block">
+			<div class="box-footer">
+				<span class="title">终端类型</span>
+			</div>
+			<div class="box-body">
+	          <div id="terminaltype" class="col-xs-12 myEchart"></div>
+	          <div id="myLegend" class="col-xs-6 panel"></div>
+			</div>
+		</div>
+	</div>
+</div>
+<!--<canvas id="canvas" width="400" height="300"/>-->
+
+  <div id="dashboard_rc" class="rc-define"
+      APPINFO = "BitTorrent,迅雷,电驴,视频,微信,微博,京东,淘宝"
+      TIPS = "放行,丢弃"
+      OUTLETFLOW = "联通,电信"
+      UP_DOWN = "下行,上行"
+      OTHERTYPE="Other Type"
+    ></div>
+</body>
+</html>
+<script language="javascript" type="text/javascript">
+    Utils.Pages.loadJS("wsmbfile.summary");
+</script>

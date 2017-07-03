@@ -1,0 +1,78 @@
+@media (min-width: 1440px) {
+    
+}
+
+/****************1280***************************/
+@media (max-width: 1280px) {
+.app-colum,
+.response-block{
+    float: none;
+    width: 100%;
+    padding: 0;
+    clear: both;
+}
+.app-box .center-summary {
+margin-left: 5%;
+}
+
+#explainInfo .runtime-block{
+    width: 50%;
+}
+#explainInfo .time-block{
+    width: 50%;
+}
+#explainInfo .memory-block{
+    padding-left: 45px;
+    width: 50%;
+}
+#explainInfo .disk-block{
+    width: 50%;
+}
+#explainInfo .debug-block{
+    padding-left: 45px;
+    float: left;
+}
+
+}
+/****************1280***************************/
+/****************1024***************************/
+@media (min-width: 980px) and(max-width: 1024px) {
+    .toggle_form .col-sm-6{
+        float: none;
+        width: 100%;
+        padding: 0;
+    }
+}
+/****************1024***************************/
+@media (min-width: 980px) and (max-width: 1065px) {
+
+
+}
+
+@media (max-width: 979px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 979px) { 
+    
+
+}
+
+@media (min-width: 768px) { 
+    
+}
+
+@media (max-width: 767px) { 
+
+}
+
+@media (max-width: 600px) {
+    
+}
+
+@media (max-width: 479px) {
+    
+}
+@media (max-width: 319px) {
+    
+}   
